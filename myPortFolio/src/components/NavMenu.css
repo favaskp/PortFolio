@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+
+.nav-parent{
+    position: relative;
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 3%;
+    padding: 0 80px;
+}
+.nav-menus {
+    padding: 5px;
+    color: black;
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.nav-menus:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px 7px yellowgreen; 
+}
+
+.logo-main{
+    position: absolute;
+    left: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-details{
+    height: 1050px;
+    background-color: red;
+}
+.main-details2{
+    height: 1000px;
+    background-color: yellow;
+}

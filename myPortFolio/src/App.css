@@ -1,0 +1,14 @@
+html , body,#root{
+  height: 98% ;
+  width: 98%;
+}
+body {
+  /* background: url("/src/assets/background_img.jpg"); */
+  /* background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.app_main{
+  background-color: red;
+}
