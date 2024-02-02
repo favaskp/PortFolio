@@ -1,13 +1,23 @@
 html , body,#root{
-  height: 98% ;
-  width: 98%;
+  margin: 0;
+}
+html{
+  height: 100%;
 }
 body {
   /* background: url("/src/assets/background_img.jpg"); */
   /* background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat; */
+  background: #14274E;
+  height: 99%;
 }
+
+#root{
+  height: 100%;
+  padding:0 5px;
+}
+
 
 .app_main{
   background-color: red;

@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@font-face {
+    font-family: 'Quache-BlackCon_PERSONAL';
+    src: url('../assets/fonts/Quache-BlackCon_PERSONAL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
-.nav-parent{
+.nav-parent {
     position: relative;
-    background-color: transparent;
-    height: 50px;
+    height: 12%;
+    max-height: 117px;
+    min-height: 62px;
+    margin: 4px 0px 0 0px;
     display: flex;
     align-items: center;
+    padding:0 5px;
     justify-content: right;
     gap: 3%;
-    padding: 0 80px;
+    top: 0;
+    background: rgba(241, 246, 249, 0.47);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    margin-bottom: 10px;
 }
 .nav-menus {
     padding: 5px;
@@ -26,7 +40,6 @@
 
 .nav-menus:hover {
     transform: scale(1.2);
-    text-shadow: 1px 1px 7px yellowgreen; 
 }
 
 .logo-main{
@@ -36,14 +49,69 @@
 
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .main-details{
-    height: 1050px;
-    background-color: red;
+    background: rgba(57, 72, 103, 0.4);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
 }
 .main-details2{
-    height: 1000px;
-    background-color: yellow;
+    background: rgba(155, 164, 180, 0.47);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
 }
+
+.linkto{
+    padding: 5px;
+    user-select: none;
+}
+
+.home-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-leftside{
+    width: 60%;
+}
+.home-rightside{
+    width: 40%;
+}
+.home-rightimg img{
+    width: 120px;
+    height: 120px;
+}
+.home-leftside{
+    font-family: 'Quache-BlackCon_PERSONAL', sans-serif;
+}
+
+.home-leftside {
+    padding: 38px;
+}
+.home-leftside p {
+    color: white;
+    font-size: 2.7vw;
+    font-family: 'Quache-BlackCon_PERSONAL', sans-serif;
+    letter-spacing: 3px;
+}
+.home-leftside p span{
+    color: #ff7924;
+}
+
+
+.home-rightimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

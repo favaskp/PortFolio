@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 import "./NavMenu.css"
 
 
@@ -12,10 +13,18 @@ const NavMenu = ()=>{
                 </div>
             </div>
             <div className="nav-menus">
-                <div className="nav-links"><a href="#home">Home</a></div>
+                <div className="nav-links">
+                    <Link className="linkto" to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </div>
             </div>
             <div className="nav-menus">
-                <div className="nav-links"><a href="#about">About</a></div>
+                <div className="nav-links">
+                    <Link className="linkto" to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </div>
             </div>
             <div className="nav-menus">
                 <div className="nav-links"><a href="#projects">Projects</a></div>
